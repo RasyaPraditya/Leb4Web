@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Sederhana - Single Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+        
+        <!-- Navigasi Menu menggunakan Anchor Link ke ID Section masing-masing -->
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#artikel">Artikel</a>
+            <a href="#about">About</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+
+        <!-- SECTION: HOME -->
+        <section id="home">
+            <section id="hero">
+                <h1>Hello World!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc pretium ac.</p>
+                <a href="#home" class="btn btn-large">Learn more &raquo;</a>
+            </section>
+            
+            <section id="wrapper">
+                <section id="main">
+                    <div class="row">
+                        <div class="box">
+                            <img src="https://dummyimage.com/120/db7d25/fff.png" alt="" class="image-circle">
+                            <h3>Heading</h3>
+                            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+                            <a href="#" class="btn btn-default">View detail</a>
+                        </div>
+                        <div class="box">
+                            <img src="https://dummyimage.com/120/3e73e6/fff.png" alt="" class="image-circle">
+                            <h3>Heading</h3>
+                            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+                            <a href="#" class="btn btn-default">View detail</a>
+                        </div>
+                        <div class="box">
+                            <img src="https://dummyimage.com/120/71e6d4/fff.png" alt="" class="image-circle">
+                            <h3>Heading</h3>
+                            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+                            <a href="#" class="btn btn-default">View detail</a>
+                        </div>
+                    </div>
+
+                    <hr class="divider" />
+
+                    <article class="entry">
+                        <h2>First featurette heading.</h2>
+                        <img src="https://dummyimage.com/150/7b8a70/fff.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc pretium ac.</p>
+                    </article>
+
+                    <hr class="divider" />
+
+                    <article class="entry" id="artikel">
+                        <h2>Artikel & Fitur Terbaru</h2>
+                        <img src="https://dummyimage.com/150/7b8a70/fff.png" alt="" class="right-img">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc pretium ac.</p>
+                    </article>
+                </section>
+
+                <aside id="sidebar">
+                    <div class="widget-box">
+                        <h3 class="title">Widget Header</h3>
+                        <ul>
+                            <li><a href="#">Widget Link</a></li>
+                            <li><a href="#">Widget Link</a></li>
+                            <li><a href="#">Widget Link</a></li>
+                            <li><a href="#">Widget Link</a></li>
+                            <li><a href="#">Widget Link</a></li>
+                        </ul>
+                    </div>
+                    <div class="widget-box">
+                        <h3 class="title">Widget Text</h3>
+                        <p>Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis.</p>
+                    </div>
+                </aside>
+            </section>
+        </section>
+
+        <hr class="divider" />
+
+        <!-- SECTION: ABOUT (Tugas 1) -->
+        <section id="about" style="padding: 20px;">
+            <article class="entry">
+                <h2>About Us & Portfolio</h2>
+                <img src="https://dummyimage.com/150/1f5faa/fff.png" alt="About Image">
+                <p>Halaman ini berisi deskripsi lengkap mengenai profil, latar belakang, serta portofolio dari proyek-proyek yang telah kami kerjakan. Kami berfokus pada pengembangan antarmuka web yang bersih, responsif, dan interaktif.</p>
+            </article>
+            
+            <div class="row" style="margin-top: 20px;">
+                <div class="box">
+                    <img src="https://dummyimage.com/120/db7d25/fff.png" alt="Portfolio 1" class="image-circle">
+                    <h3>Project Web</h3>
+                    <p>Pembuatan sistem informasi berbasis web.</p>
+                </div>
+                <div class="box">
+                    <img src="https://dummyimage.com/120/3e73e6/fff.png" alt="Portfolio 2" class="image-circle">
+                    <h3>UI Design</h3>
+                    <p>Perancangan desain antarmuka pengguna.</p>
+                </div>
+                <div class="box">
+                    <img src="https://dummyimage.com/120/71e6d4/fff.png" alt="Portfolio 3" class="image-circle">
+                    <h3>Mobile App</h3>
+                    <p>Pengembangan aplikasi mobile interaktif.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider" />
+
+        <!-- SECTION: KONTAK (Tugas 2) -->
+        <section id="kontak" style="padding: 20px;">
+            <div style="max-width: 600px;">
+                <h2>Kontak Kami</h2>
+                <p style="margin: 15px 0;">Silakan isi formulir di bawah ini untuk mengirimkan pesan, pertanyaan, atau masukan kepada kami.</p>
+
+                <form action="#" method="post" class="contact-form">
+                    <div class="form-group" style="margin-bottom: 15px;">
+                        <label for="nama" style="display: block; margin-bottom: 5px; font-weight: bold;">Nama:</label>
+                        <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;" required>
+                    </div>
+
+                    <div class="form-group" style="margin-bottom: 15px;">
+                        <label for="email" style="display: block; margin-bottom: 5px; font-weight: bold;">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Masukkan email Anda" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;" required>
+                    </div>
+
+                    <div class="form-group" style="margin-bottom: 15px;">
+                        <label for="message" style="display: block; margin-bottom: 5px; font-weight: bold;">Message:</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tuliskan pesan Anda..." style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit" style="background-color: #1f5faa; color: #fff; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; font-weight: bold;">Kirim Pesan</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
