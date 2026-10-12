@@ -88,3 +88,11 @@
 * **Screenshot:**
 ![Tugas 2 - Halaman Contact]<img width="1920" height="1080" alt="Screenshot (246)" src="https://github.com/user-attachments/assets/3bef378e-5970-47a6-8372-af06f6cdeaab" />
 
+### HASIL AKHIR
+<img width="1920" height="1080" alt="Screenshot (247)" src="https://github.com/user-attachments/assets/33c6c8f2-67be-4dae-b9f3-f70135b6ae7e" />
+<img width="1920" height="1080" alt="Screenshot (244)" src="https://github.com/user-attachments/assets/83059e7f-07b1-4119-a9de-a3925e898242" />
+<img width="1920" height="1080" alt="Screenshot (245)" src="https://github.com/user-attachments/assets/6c237f62-79ae-4165-be15-6ba3214fab32" />
+<img width="1920" height="1080" alt="Screenshot (246)" src="https://github.com/user-attachments/assets/145c0ef2-a97a-425c-8ab3-16e654d59102" />
+
+
+
